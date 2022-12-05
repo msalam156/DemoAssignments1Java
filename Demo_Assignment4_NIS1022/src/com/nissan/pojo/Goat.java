@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.nissan.pojo;
 
 public class Goat extends Animals {
@@ -26,3 +27,33 @@ public class Goat extends Animals {
 //		System.out.println("Walking with " + super.getNoOfLegs() + " of legs");
 //	}
 }
+=======
+package com.nissan.pojo;
+
+public class Goat extends Animals {
+
+	public Goat() {}
+	
+	public Goat(int noOfLegs, String colour) {
+		super(noOfLegs, colour);
+	}
+
+	@Override
+	public String cry() {
+		// TODO Auto-generated method stub
+		return "Mehhhh";
+	}
+
+	@Override
+	public double fly() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+//	@Override
+//	public void walk() {
+//		// TODO Auto-generated method stub
+//		System.out.println("Walking with " + super.getNoOfLegs() + " of legs");
+//	}
+}
+>>>>>>> 03d97f925cf584da65fa9cf807019b741437dbdd
