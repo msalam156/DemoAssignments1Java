@@ -21,5 +21,4 @@ public class ArrayExcep {
 			System.out.println("The Exception is : "+ e);
 		}
 	}
-
 }
